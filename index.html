@@ -8,44 +8,44 @@
 </head>
 <body>
     <form action="" class="calculator">
-        <fieldset class="calculator__rows">
+        <div class="calculator__rows">
             <input id="display" class="calculator__display" type="text" disabled>
-        </fieldset>
+        </div>
         
-        <fieldset class="calculator__rows">
+        <div class="calculator__rows">
             <input class="calculator__rows__button" type="button" value="C" onclick="clean()">
             <input class="calculator__rows__button" type="button" value="%" onclick="displayNum('%')">
             <input class="calculator__rows__button" type="button" value="CE" onclick="backSpace()">
             <input class="calculator__rows__button" type="button" value="/" onclick="displayNum('/')">
-        </fieldset>
+        </div>
 
-        <fieldset class="calculator__rows">
+        <div class="calculator__rows">
             <input class="calculator__rows__button" type="button" value="7" onclick="displayNum('7')">
             <input class="calculator__rows__button" type="button" value="8" onclick="displayNum('8')">
             <input class="calculator__rows__button" type="button" value="9" onclick="displayNum('9')">
             <input class="calculator__rows__button" type="button" value="*" onclick="displayNum('*')">
-        </fieldset>
+        </div>
 
-        <fieldset class="calculator__rows">
+        <div class="calculator__rows">
             <input class="calculator__rows__button" type="button" value="4" onclick="displayNum('4')">
             <input class="calculator__rows__button" type="button" value="5" onclick="displayNum('5')">
             <input class="calculator__rows__button" type="button" value="6" onclick="displayNum('6')">
             <input class="calculator__rows__button" type="button" value="-" onclick="displayNum('-')">
-        </fieldset>
+        </div>
 
-        <fieldset class="calculator__rows">
+        <div class="calculator__rows">
             <input class="calculator__rows__button" type="button" value="1" onclick="displayNum('1')">
             <input class="calculator__rows__button" type="button" value="2" onclick="displayNum('2')">
             <input class="calculator__rows__button" type="button" value="3" onclick="displayNum('3')">
             <input class="calculator__rows__button" type="button" value="+" onclick="displayNum('+')">
-        </fieldset>
+        </div>
 
-        <fieldset class="calculator__rows">
+        <div class="calculator__rows">
             <input class="calculator__rows__button" type="button" value="00" onclick="displayNum('00')">
             <input class="calculator__rows__button" type="button" value="0" onclick="displayNum('0')">
             <input class="calculator__rows__button" type="button" value="." onclick="displayNum('.')">
             <input class="calculator__rows__button" type="button" value="=" onclick="calculate()" onmousedown="ring.play()">
-        </fieldset>
+        </div>
     </form>
 
     <script src="./main.js"></script>
